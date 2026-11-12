@@ -1,0 +1,10 @@
+﻿#![windows_subsystem = "windows"]
+
+mod config;
+mod setup;
+mod bot;
+mod monitor;
+
+fn main() {
+    setup::run_app().expect("?? ??????? ????????? TODDY PC CONTROL");
+}

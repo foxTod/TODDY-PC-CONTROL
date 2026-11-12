@@ -1,0 +1,6 @@
+﻿/target/
+/dist-installer/
+*.bak
+/config.json
+/.env
+/.env.txt
